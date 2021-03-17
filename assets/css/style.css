@@ -1,33 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* ---------------Header: Navbar name and table*/
-
-
 .bg-color-name-title {
     background-color: #517d8f;
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
     margin-left: 0.1px;
-}
-
-.bg-color-name-table {
-    background-color: #517d8f;
-    margin-left: 0.1px;
-    border: 0;
-    padding: 0px;
+    margin-top: 0px;
+    color: #fff
 }
 
 header {
     margin: 0;
 }
 
-
-
-/* ----------------------Image-----------*/
 .image {
     background: url("../images/pexels-skitterphoto-705164.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 410px;
+    min-height: 390px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
