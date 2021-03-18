@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*--------------------------------------colurs*/
 .bg-color-name-title {
     background-color: #517d8f;
     font-family: "Exo", sans-serif;
@@ -10,19 +11,70 @@
     color: #fff
 }
 
+.ui-menu-color-project {
+background:#517d8f;
+color: #fff
+}
+
+.ui-menu-color-history {
+background:#80c5e0;
+color: #fff
+}
+
+.ui-menu-color-skills {
+background:#69c545
+color: #fff
+}
+
+.ui-menu-color-resume {
+background:#92bfd1;
+color: #fff
+}
+
+.ui-menu-color-contact {
+background:#e67e22
+color: #fff
+}
+/*----------------------------------heading*/
 header {
     margin: 0;
 }
+
+.heading {
+    margin-left: 50px;
+}
+
+/*---------------------------------------image*/
 
 .image {
     background: url("../images/pexels-skitterphoto-705164.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 390px;
+    min-height: 400px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+/*-----------------------------------------name and title*/
+
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 16px;
+    color: #fff;
+}
+
+.title {
+    font family: "Roboto", sans-serif;
+    font-weight: 200px;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px; 
+    color: #fff;
 }
 
 * {
