@@ -60,6 +60,10 @@ h1,h2,h3,h4 {
     margin: 0;
 }
 
+/*------------------------------------------------section*/
+
+
+
 /*----------------------------------heading*/
 header {
     margin: 0;
@@ -126,6 +130,22 @@ footer {
 
 .inline-block {
     display: inline-block;
+}
+
+.info i {
+font-size: 25px;
+color: #fff;
+text-align: center;
+padding-top: 5x;
+padding-left: 40px;
+transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-wbkit-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
+}
+
+.info i:hover {
+    color: #d81111;
 }
 
 .cv-pdf i {
