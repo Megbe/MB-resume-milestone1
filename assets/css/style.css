@@ -50,10 +50,34 @@ color: #fff;
     letter-spacing: 1px;
 }
 
+.navbar {
+    flex-wrap: wrap;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.0rem;
+    line-height: 2;
+    background-color: transparent;
+    padding-top: 0;
+    border-radius: .25rem;
+}
+
+.col-md-12 {
+    padding-right: 7;
+}
+
 /*---------------------------------special paddings/margins/text*/
 h1,h2,h3,h4 {
     margin: 0;
 }
+
+body {
+    line-height: 1.1;
+}
+
 
 /*------------------------------------------------section*/
 
@@ -79,6 +103,8 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
+
 
 /*-----------------------------------------name-title-profile------*/
 
