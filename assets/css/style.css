@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 /*--------------------------------------colours*/
 .bg-color-name-title {
     background-color: #517d8f;
