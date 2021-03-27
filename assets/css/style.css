@@ -88,7 +88,6 @@ h1,h2,h3,h4 {
 
 /*------------------------------------------------section*/
 
-
 /*----------------------------------heading*/
 header {
     margin: 0;
@@ -110,7 +109,6 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
 
 
 /*-----------------------------------------name-title-profile------*/
@@ -151,13 +149,12 @@ header {
 }
 
 /*---------------------------------footer----------*/
-
 footer {
     background-color: #8edfff;
     color: #fff;
-    height: 35px;
-    margin: 0;
-    text: 10px;
+    height: 40px;
+    margin: 0;  
+    text-align: center;
 }
 
 .inline-block {
@@ -176,9 +173,6 @@ transition: all 0.35s ease-in-out;
 -o-transition: all 0.35s ease-in-out;
 }
 
-.info i:hover {
-    color: #d81111;
-}
 
 .cv-pdf i {
 font-size: 15px;
@@ -192,9 +186,6 @@ transition: all 0.35s ease-in-out;
 -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover {
-    color: #d81111;
-}
   
 .social-link {
 padding-right: 30px;
@@ -215,13 +206,16 @@ padding-right: 30px;
     -o-transition: all 0.35s ease-in-out; 
 }
 
-.social-link li a i:hover {
-   color: #d81111;
-}
+
 
 #footer-details {
     padding: 10px;
 }
+.general-sub i:hover{
+    color: #05a55a;
+}
+
+/*---------------------------------------End of footer----------*/
 
 /*-------------------------------------Contact Form--------*/
 .contact-heading {
@@ -254,3 +248,4 @@ button[type="submit"] {
 
     }
 }
+
