@@ -266,7 +266,7 @@ button[type="submit"] {
 .progress {
     position: relative;
     height: 25px;
-    margin-bottom: 4px;  
+    margin-bottom: 5px;  
     
 }
 
@@ -276,10 +276,14 @@ button[type="submit"] {
     font-weight: 500;
     padding: 12px 30px 12px 10px;
     color: #fff;
-   background-color: rgba(25, 25, 25, 0.2);
+    background-color: rgba(25, 25, 25, 0.2);
   
 }
 
+.progress-section {
+margin: 40px 120px;
+
+}
 
 /*-------------------------------------End of Skills Bar--------*/
 
