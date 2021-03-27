@@ -28,7 +28,7 @@ background: #517d8f;
 color: #fff
 }
 
-.ui-menu-color-project {
+.ui-menu-color-skills {
 background: #23b0e7; 
 color: #fff
 }
@@ -146,6 +146,66 @@ header {
     display: inline-block;
 }
 
+
+/*-------------------------------------Skills/progress bar --------*/
+.progress {
+    position: relative;
+    height: 20px;
+    margin-bottom: 5px;  
+    
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 500;
+    padding: 12px 30px 12px 10px;
+    color: #fff;
+    background-color: rgba(25, 25, 25, 0.2);
+  
+}
+
+.progress-section {
+margin: 40px 120px;
+
+}
+
+/*-------------------------------------End of Skills Bar--------*/
+
+
+/*-------------------------------------Contact Form--------*/
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.center-form {
+    padding-top: 10px;
+    margin:0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #05a55a;
+
+}
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 10px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+
+    }
+}
+/*-------------------------------------End of Contact Form--------*/
+
 /*---------------------------------footer----------*/
 
 footer {
@@ -226,64 +286,3 @@ padding-right: 30px;
 }
 
 /*---------------------------------------End of footer----------*/
-
-/*-------------------------------------Contact Form--------*/
-.contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 600;
-    margin-top: 25px;
-    margin-bottom: 20px;
-
-}
-
-.center-form {
-    padding-top: 10px;
-    margin:0 auto;
-    max-width: 70%;
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fff;
-    background-color: #05a55a;
-
-}
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 10px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-
-    }
-}
-/*-------------------------------------End of Contact Form--------*/
-
-
-
-/*-------------------------------------Skills/progress bar --------*/
-.progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 5px;  
-    
-}
-
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 500;
-    padding: 12px 30px 12px 10px;
-    color: #fff;
-    background-color: rgba(25, 25, 25, 0.2);
-  
-}
-
-.progress-section {
-margin: 40px 120px;
-
-}
-
-/*-------------------------------------End of Skills Bar--------*/
-
