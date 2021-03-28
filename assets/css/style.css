@@ -23,13 +23,9 @@ background-color: #fff;
 color: #426979;
 
 }
-
 .bg-color-name-history {
-background-color: #8edfff;
-color: #426979;
-
+background:#8edfff;
 }
-
 
 .profile {
     background: #05a55a;
@@ -98,7 +94,7 @@ h1,h2,h3,h4 {
     margin: 0;
 }
 
-/*------------------------------------------------section*/
+
 
 /*----------------------------------heading*/
 header {
@@ -129,10 +125,12 @@ header {
     font-weight: 100;
     font-size: 40px;
     margin-top: 10px;
-    margin-bottom: 15px;
-    
+    margin-bottom: 10px;   
+    padding-top: 17px;
     color: #fff;
 }
+
+
 
 .title {
     font-family: "Roboto", sans-serif;
@@ -146,7 +144,7 @@ header {
 .profile {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 15px;
     text-align: justify;
     padding-bottom: 3px;
     padding-top: 10px;
@@ -158,13 +156,32 @@ header {
 .inline-block {
     display: inline-block;
 }
-
+.bg-color-name-title {
+    height: 160px;
+}
+.bg-color-name-profile {
+height: 160px;
+}
 
 /*-------------------------------------Skills/progress bar --------*/
+.skills-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 45px;
+    color: #426979;
+    position: center;
+
+}
+
+/*---------------------------------progress bars---------------*/
 .progress {
     position: relative;
     height: 20px;
-    margin-bottom: 5px;  
+    margin-left: 35px;
+   margin-right: 35px;
+    margin-bottom: 3px; 
+    width: 90%;
     
 }
 
@@ -179,25 +196,29 @@ header {
 }
 
 .progress-section {
-margin: 40px 120px;
+padding-left: 20px;
+padding-right: 20px;
+
 
 }
 
-/*-------------------------------------End of Skills Bar--------*/
+/*--------------------------------- End of progress bars---------------*/
 
 
 /*-------------------------------------Contact Form--------*/
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 600;
+    font-size: 25px;
     margin-top: 25px;
     margin-bottom: 20px;
+    position: center;
 
 }
 
 .center-form {
     padding-top: 10px;
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 70%;
 }
 
@@ -227,6 +248,7 @@ footer {
     height: 40px;
     margin: 0;  
     text-align: center;
+ 
 }
 
 .inline-block {
@@ -300,35 +322,33 @@ padding-right: 30px;
 
 /*---------------------------------------End of footer----------*/
 
-/*-----------------------------History---------------*/
-
-.profile-history {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-size: 16px;
-    text-align: justify;
-    padding-bottom: 3px;
-    padding-top: 10px;
-    padding-left: 23px;
-    padding-right: 23px;
-    color: #fff;
-}
+/*-----------------------------History heading---------------*/
 
 .history-heading {
     font-family: "Exo", sans-serif;
     font-weight: 600;
-    font-size: 45px;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    padding-left: 10px;
+     
+    margin-left: 140px;
     
+}
 
-}/*----------Timeline---------*/
-
+   .bg-color-name-history {
+       height: 35px;
+       padding-bottom: 3px;
+       padding-left: 5px;
+       color: #426979;
+       width: auto;
+   }
+/*---------------------------- End of History heading ---------------*/
+  
+/*----------Timeline--------*/
 
 .container {
-  padding-top: 30px;
-  padding-bottom: 40px;
-  padding-left: 150px;
+  padding-top: 20p;
+  padding-bottom: 10px;
+  padding-left: 100px;
   background-color:#f2f8f7;
   
 }
@@ -336,8 +356,8 @@ padding-right: 30px;
   h3 {
     height: auto;
     max-width: 40em;
-    padding-top: 25px;
-    font-size: 25px;
+    padding-top: 15px;
+    font-size: 20px;
     text-align: left;
     position: relative;
     clear: both;
@@ -350,10 +370,9 @@ padding-right: 30px;
   
 @media screen and (min-width: 40em) {
   .container {
-    max-width: 1000px;
+    max-width: 730px;
     margin: 0 auto;
   }
   
 /*------------ End of Timeline-------*/
 
-/*-----------------------------End of History---------------*/
