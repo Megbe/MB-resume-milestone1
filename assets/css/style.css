@@ -332,33 +332,25 @@ padding-right: 30px;
 
 /*---------------------------------------End of footer----------*/
 
-/*-----------------------------History heading---------------*/
-
-.history-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    padding-left: 10px;
-    margin-left: 140px;
-    position: static;
-    
-}
-
+/*-----------------------------History heading---------------*/ 
    .bg-color-name-history {
+       font-family: "Exo", sans-serif;
+       font-weight: 600;
+       font-size: 25px;
        height: 35px;
        padding-bottom: 3px;
-       padding-left: 5px;
+       padding-left: 35px;
        color: #426979;
-       width: auto;
+      text-align: center;
    }
 /*---------------------------- End of History heading ---------------*/
   
 /*----------Timeline--------*/
 
 .container {
-  padding-top: 20px;
+  padding-top: 5px;
   padding-bottom: 10px;
-  padding-left: 100px;
+  padding-left: 80px;
   background-color:#f2f8f7;
   
 }
@@ -367,7 +359,7 @@ padding-right: 30px;
     height: auto;
     max-width: 40em;
     padding-top: 15px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     position: relative;
     clear: both;
@@ -375,7 +367,8 @@ padding-right: 30px;
   
   
   h6 {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    font-size: 12px;
   }
   
 @media screen and (min-width: 40em) {
@@ -386,3 +379,4 @@ padding-right: 30px;
   
 /*------------ End of Timeline-------*/
 
+}
