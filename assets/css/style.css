@@ -198,6 +198,7 @@ height: 130px;
 .progress-section {
 padding-left: 20px;
 padding-right: 20px;
+padding-bottom: 35px;
 
 
 }
@@ -315,10 +316,16 @@ padding-right: 30px;
     padding: 10px;
 }
 
+
 .general-sub i:hover{
     color: #05a55a;
 
 }
+
+.general-sub {
+    width: 40px;
+}
+
 
 /*---------------------------------------End of footer----------*/
 
@@ -329,8 +336,8 @@ padding-right: 30px;
     font-weight: 600;
     font-size: 25px;
     padding-left: 10px;
-     
     margin-left: 140px;
+    position: static;
     
 }
 
