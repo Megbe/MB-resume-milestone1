@@ -48,36 +48,39 @@
                 </div>
             </div>
         </div>
-    </header>
+
+           </header>
     <!--End of Name and title-->
     <!--navbar-->
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" data-toggle="dropdown"><span class="navbar-toggler-icon"></span></button>
-        <div class="col-md-12">
+       <div class="collapse nav-collapse"></div>
+        <div class="col-md-12 collapse navbar-collapse" id="supportedContent">
+           <div class="col-md-12">
             <div class="row section-navbar">
                 <div class="col navbar"></div>
-
+        
                 <div class="col-6 col-sm-2 menuitem">
                     <a class="nav-link ui-menu-color-home" href="index.html"><i class="fas fa-home"></i><span>
                             Home</span></a>
                 </div>
 
                 <div class="col-6 col-sm-2 menuitem">
-                    <a class="nav-link ui-menu-color-history" href="#"><i class="fas fa-book"></i><span>
+                    <a class="nav-link ui-menu-color-history" href="#history"><i class="fas fa-book"></i><span>
                             History</span></a>
                 </div>
-
+        
                 <div class="col-6 col-sm-2 menuitem">
                     <a class="nav-link ui-menu-color-resume" href="assets/cv/placeholder-cv.pdf" target="_blank"><i
                             class="fas fa-download"></i><span>
                             Resume</span></a>
                 </div>
                 <div class="col-6 col-sm-2 menuitem">
-                    <a class="nav-link ui-menu-color-contact" href="contact.html" target="_blank"><i
+                    <a class="nav-link ui-menu-color-contact" href="#contact"><i
                             class="fas fa-comment-alt"></i><span>
-                            Contact</span></a>
-
+                            Contact</span></a>  
+                       </div>
                 </div>
             </div>
         </div>
@@ -124,10 +127,10 @@
     <!--end of Skills bar-->
 
     <!--History heading-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="history">
         <div class="row bg-color-name-history">
             <div class="col">
-                <p>HISTORY</p>
+                <p>WORK HISTORY</p>
             </div>
         </div>
     </div>
@@ -176,14 +179,12 @@
 
         </div>
     </div>
-
-
     <!--end of timeline-->
 
 
     <!--Form-->
     <section class="container-fluid">
-        <div class="row bg-color-contact">
+        <div class="row bg-color-contact" id="contact">
             <div class="col">
                 <p class="contact-heading text-center">CONTACT ME</p>
                 <div class="center-form">
@@ -230,7 +231,7 @@
                 <h5 class="general-sub"><i class="fab fa-linkedin" aria-hidden="true"></i></h5>
                 <ul class="list-inline social-link">
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.linkedin.com/login">
+                        <a href="https://www.linkedin.com/login" target="_blank">
                             <span class="sr-only">LinkedIn</span>
                         </a>
                     </li>
