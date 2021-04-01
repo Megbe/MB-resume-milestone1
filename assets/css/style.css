@@ -8,7 +8,7 @@
 
 /*--------------------------------------colours*/
 .bg-color-name-title {
-    background-color: #517d8f;
+    background-color:  #05A55A;
     color: #fff;
 }
 
@@ -23,7 +23,7 @@ background:#8edfff;
 }
 
 .profile {
-    background: #05a55a;
+    background: #517d8f;
     color: #fff;
 }
 
@@ -200,6 +200,30 @@ padding-bottom: 35px;
 
 /*--------------------------------- End of progress bars---------------*/
 
+/*-------------------------------About Skills-----------------------------*/
+
+.dev-skills {
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-size: 13px;
+height: 85px;
+text-align: justify;
+margin-bottom:40px;
+padding-top: 18px;
+padding-bottom: 18px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: #517d8f;
+text-transform: uppercase;
+color: #fff;
+}
+
+.dev-skills-cl {
+padding-left: 55px;
+padding-right: 85px;
+}
+
+/*-------------------------------End of About Skills----------------------*/
 
 /*-------------------------------------Contact Form--------*/
 .contact-heading {
