@@ -9,18 +9,19 @@ Currently, the key points are:
 
 
 
----------------------------UX---------------------- 
+##*UX*
 
 
-------------------------FEATURES-------------------
+##*FEATURES*
 The website has a responsive fixed-top navigation bar in the header, which enable easy navigation without scrolling down and up the page - TBC
 The icons in the navigation bar feature a change of colour form white to blue when user hovers over each name in the nav bar tabs, to enhance interactivity.
 The Footer has copyright information as well media icons and a download icon for the CV. Hover function transition from white to green when hovered over.  
 
 
 
-------------------------TECHOLOGIES----------------
--	HTML - coding
+##*TECHOLOGIES*
+
+	HTML - coding
 -	CSS - styling
 -	Bootstrap – helped to in a structure format
 -	Google fonts - https://fonts.google.com/ - used to produce the correct format to place the fonts into the page
@@ -28,7 +29,7 @@ The Footer has copyright information as well media icons and a download icon for
 
 
 
------------------------TESTING---------------------
+##*TESTING*
 -	 HTML W3C Markup Validator]( https://validator.w3.org/#validate_by_input)
 -	W3C CSS Validator ( https://jigsaw.w3.org/css-validator/#validate_by_input)
 -	Problems -from GitHub menu
@@ -39,25 +40,25 @@ Project deployed by using GitHub pages from master branch which will update auto
 https://github.com/Megbe/MB-resume-milestone1
 
 
------------------CREDITS---------------------------
+##*CREDITS*
 All content was written and produced by me
 
 
 
-------------RESPONSIVE DESIGN----------------------
+#**RESPONSIVE DESIGN*
 
 
 
------------------------DESIGN----------------------
+##*DESIGN*
 Colours used for the navigation tabs, footer and for the background of name/title and profile, stem from the colours in the main image and visually balance the web page design. 
 Layout – the aim was to produce very simple easy to navigate
 
 
-------------------ACKOWLEDGMENTS-------------------
+##*ACKOWLEDGMENTS*
 -	Bootstrap
 -	W3schools – reference to solve html problems
 -	CI course material
 
 
-----------------------IMAGE------------------------
+#**IMAGE8
 Image used is from the free media site: pexels.com, pexels-skitterphoto-705164
