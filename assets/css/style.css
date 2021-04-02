@@ -163,7 +163,7 @@ height: 130px;
     font-family: "Exo", sans-serif;
     font-weight: 600;
     font-size: 25px;
-    margin-top: 45px;
+    margin-top: 65px;
     color: #426979;
     position: static;
 
@@ -205,7 +205,7 @@ font-weight: 100;
 font-size: 13px;
 height: 100px;
 text-align: justify;
-margin-bottom:40px;
+margin-bottom: 50px;
 padding-bottom: 18px;
 padding-top: 18px;
 padding-left: 20px;
@@ -232,24 +232,17 @@ width: 98%;
        font-family: "Exo", sans-serif;
        font-weight: 600;
        font-size: 25px;
-       height: 35px;
+       height: 45px;
        padding-bottom: 3px;
+       padding-top: 7px;
        padding-left: 35px;
        color: #426979;
-      text-align: center;
+       text-align: center;
    }
 /*---------------------------- End of History heading ---------------*/
   
-/*----------Timeline--------*/
+/*--------- History -Timeline--------*/
 
-.container {
-  background-color:#f2f8f7;
-  max-width: 50%
-  padding-left: 160px;
- 
-
-}
- 
   h3 {
     height: auto;
     max-width: 40em;
@@ -272,15 +265,16 @@ width: 98%;
   }
   
 @media screen and (min-width: 40em) {
-  .container {
+  .hist-container {
     max-width: 50%;
     margin: 0 auto;
     padding-left: 50px;
+    background-color: #97c4bd;
     
   }
 }
   
-/*------------ End of Timeline-------*/
+/*------------ End of  history Timeline-------*/
 
 
 /*-------------------------------------Contact Form--------*/
@@ -288,8 +282,9 @@ width: 98%;
     font-family: "Exo", sans-serif;
     font-weight: 600;
     font-size: 25px;
-    margin-top: 25px;
-    margin-bottom: 20px;
+   
+    margin-top: 60px;
+    margin-bottom: 30px;
     position: static;
 
 }
@@ -302,6 +297,7 @@ width: 98%;
     margin-bottom: 50px;
     position: static;
  padding-top: 70px;
+ height: 200px;
 
 }
 
@@ -334,10 +330,10 @@ button[type="submit"] {
 footer {
     background-color: #8edfff;
     color: #fff;
-    height: 70px;
+    height: 50px;
     margin: 0;  
     text-align: center;
- 
+    
 }
 
 .inline-block {
@@ -414,6 +410,16 @@ padding-right: 30px;
     width: 40px;
 }
 
+p.text-uppercase {
+    margin-left: auto;
+    margin-right: 30px;
+    width: fit-content;
+   
+}
+
+.footer-det {
+    height: 50px;
+}
 
 /*---------------------------------------End of footer----------*/
 
