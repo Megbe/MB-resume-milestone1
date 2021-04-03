@@ -116,8 +116,8 @@ header {
     font-weight: 100;
     font-size: 40px;
     padding-top: 5px;
+    margin-left: 30px;
     margin-bottom: 10px;   
-    padding-top: 5px;
     color: #fff;
 }
 
@@ -231,9 +231,9 @@ width: 98%;
    }
 
 /*--------- History -Timeline--------*/
-h1 {
-    font-family: "Exo", sans-serif;
-     font-size: 35px;    
+
+#style-workhistoryt {
+    font-family: "Exo", sans-serif; 
     font-weight: 600;
     font-size: 25px;
    text-align: center;
@@ -242,38 +242,40 @@ h1 {
    
 }
 
-  h3 {
+  #style-position {
     font-family: "Roboto", sans-serif;
-    max-width: 40em;
     padding-top: 15px;
-    font-size: 15px;
-    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
     margin-left: 50px;
-    clear: both;
-    position: center;
+   
       }
   
   
-  h6 {
+  #style-employer {
     font-family: "Roboto", sans-serif;
     margin-bottom: 5px;
     font-size: 12px;
-    position: center;
     padding-left: 0px;
     margin-left: 50px;
    
   }
-  
-.timeline {
-    width: 400px;
-    margin-left: 40px;
-}
+
+  #style-date {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding-left: 0px;
+    margin-left: 50px; 
+   
+  }
   
 @media screen and (min-width: 392px) {
   .hist-container {
     max-width: 50%;
     margin: 0 auto;
-    padding-left: 50px;
+    padding-left: 40px;
     background-color: #97c4bd;
     
   }
@@ -286,11 +288,10 @@ h1 {
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 600;
-    font-size: 25px;
-   
-    margin-top: 60px;
+    font-size: 25px;  
+    margin-top: 71px;
     margin-bottom: 30px;
-    position: static;
+   
 
 }
 
@@ -300,7 +301,6 @@ h1 {
     font-size: 25px;
     margin-top: 55px;
     margin-bottom: 50px;
-    position: static;
  padding-top: 70px;
  height: 200px;
 
