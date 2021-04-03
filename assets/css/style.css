@@ -132,6 +132,12 @@ header {
     color: #fff;
 }
 
+#st-quote {
+font-size: 15px;
+padding-left: 50px;
+padding-top: 15px
+}
+
 .profile {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -199,10 +205,9 @@ width: 98%;
 
 .dev-skills {
 font-family: "Roboto", sans-serif;
-font-weight: 100;
-font-size: 12px;
+font-weight: 200;
+font-size: 13px;
 height: 180px;
-text-align: justify;
 margin-bottom: 50px;
 padding-bottom: 18px;
 padding-top: 18px;
@@ -232,7 +237,7 @@ width: 98%;
 
 /*--------- History -Timeline--------*/
 
-#style-workhistoryt {
+#st-workhistoryt {
     font-family: "Exo", sans-serif; 
     font-weight: 600;
     font-size: 25px;
@@ -242,7 +247,7 @@ width: 98%;
    
 }
 
-  #style-position {
+  #st-position {
     font-family: "Roboto", sans-serif;
     padding-top: 15px;
     padding-left: 10px;
@@ -252,8 +257,7 @@ width: 98%;
    
       }
   
-  
-  #style-employer {
+  #st-employer {
     font-family: "Roboto", sans-serif;
     margin-bottom: 5px;
     font-size: 12px;
@@ -262,7 +266,7 @@ width: 98%;
    
   }
 
-  #style-date {
+  #st-date {
     font-family: "Roboto", sans-serif;
     margin-bottom: 5px;
     font-size: 16px;
@@ -291,7 +295,6 @@ width: 98%;
     font-size: 25px;  
     margin-top: 71px;
     margin-bottom: 30px;
-   
 
 }
 
