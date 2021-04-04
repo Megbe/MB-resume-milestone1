@@ -76,15 +76,15 @@ color: #fff;
     border-radius: .25rem;
 }
 
-.col-md-12 {
+.skillsid {
     padding-right: 7px;
+
 }
 
 /*---------------------------------special paddings/margins/text*/
 h1,h2,h3,h4 {
     margin: 0;
 }
-
 
 
 /*----------------------------------heading*/
@@ -115,17 +115,18 @@ header {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 40px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
     padding-top: 5px;
     margin-left: 25px;
     margin-bottom: 10px;   
     color: #fff;
 }
 
-
 .title {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 20px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
     padding-top: 3px;
     margin-left: 25px;
     margin-bottom: 5px;
@@ -149,7 +150,6 @@ padding-top: 15px
     color: #fff;
 }
 
-
 .inline-block {
     display: inline-block;
 }
@@ -160,7 +160,6 @@ padding-top: 15px
 .bg-color-name-profile {
 height: 130px;
 }
-
 
 /*-------------------------------------Skills/progress bar --------*/
 .skills-heading {
@@ -206,10 +205,10 @@ width: 98%;
 .dev-skills {
 font-family: "Roboto", sans-serif;
 font-weight: 200;
-font-size: 13px;
-height: 180px;
-margin-bottom: 50px;
-padding-bottom: 18px;
+font-size: 11px;
+height: 200px;
+margin-bottom: 40px;
+padding-bottom: 8px;
 padding-top: 18px;
 padding-left: 20px;
 padding-right: 20px;
@@ -225,14 +224,14 @@ padding-right: 20px;
 padding-bottom: 30px;
 padding-top: 0px;
 width: 98%;
+height: 250px;
 }
-
 
 /*-----------------History HEading---------*/  
 .color-name-history {
        height: 40px;
       color: #fff;
-      
+     
    }
 
 /*--------- History -Timeline--------*/
@@ -287,7 +286,6 @@ width: 98%;
   
 /*------------ End of  history Timeline-------*/
 
-
 /*-------------------------------------Contact Form--------*/
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -316,7 +314,7 @@ width: 98%;
 }
 
 button[type="submit"] {
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 60px;
     color: #fff;
     background-color: #05a55a;
@@ -340,8 +338,7 @@ footer {
     color: #fff;
     height: 50px;
     margin: 0;  
-    text-align: center;
-    
+   
 }
 
 .inline-block {
@@ -349,11 +346,11 @@ footer {
 }
 
 .info i {
-font-size: 15px;
 color: #fff;
 text-align: center;
 padding-top: 5px;
-padding-left: 40px;
+padding-left: 20px;
+text-shadow: 2px 2px 2px rgb(0, 0, 0.75);
 transition: all 0.35s ease-in-out;
 -moz-transition: all 0.35s ease-in-out;
 -webkit-transition: all 0.35s ease-in-out;
@@ -362,74 +359,59 @@ transition: all 0.35s ease-in-out;
 
 .info i:hover {
     color: #05a55a;
-
 }
-
-.resume-pf i {
-font-size: 15px;
+.resume-dov i {
 color: #fff;
 text-align: center;
-padding-top: 20px;
-padding-left: 100px;
+padding-top: 5px;
+padding-left: 20px;
+text-shadow: 2px 2px 2px rgb(0, 0, 0.75);
 transition: all 0.35s ease-in-out;
 -moz-transition: all 0.35s ease-in-out;
 -webkit-transition: all 0.35s ease-in-out;
 -o-transition: all 0.35s ease-in-out;
 }
 
-.resume-pf i:hover {
+.resume-dov i:hover {
+    color: #05a55a;
+
+}
+
+.wayto-li i {
+color: #fff;
+text-align: center;
+padding-top:5px;
+padding-left: 20px;
+text-shadow: 2px 2px 2px rgb(0, 0, 0.75);
+transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-webkit-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
+}
+
+.wayto-li i:hover {
     color: #05a55a;
 }
-  
-.social-link {
-padding-right: 30px;
-}
-
-.social-link li a i {
-    width: 15px;
-    height: 15px;    
-    padding-top: 10px;
-    padding-left: 100px;
-    line-height: 12px;
-    font-size: 30px;
-    text-align: center;
-    color: #fff;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out; 
-}
-
-.social-link li a i:hover {
-   color: #05a55a;
-}
-
 #footer-details {
-    padding: 10px;
+    padding: 8px;
+    padding-bottom: 0;
 }
-
 
 .general-sub i:hover{
     color: #05a55a;
 
 }
-
 .general-sub {
     width: 40px;
+    color: #fff;
 }
 
 p.text-uppercase {
     margin-left: auto;
     margin-right: 30px;
     width: fit-content;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.4);
    
 }
 
-.footer-det {
-    height: 50px;
-}
-
 /*---------------------------------------End of footer----------*/
-
-
-
