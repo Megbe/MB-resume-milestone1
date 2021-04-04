@@ -43,7 +43,7 @@ color: #fff;
 }
 
 .ui-menu-color-contact {
-background: #88b2c4;
+background: #6ab6d6;
 color: #fff;
 }
 
@@ -116,7 +116,7 @@ header {
     font-weight: 100;
     font-size: 40px;
     padding-top: 5px;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-bottom: 10px;   
     color: #fff;
 }
@@ -127,7 +127,7 @@ header {
     font-weight: 100;
     font-size: 20px;
     padding-top: 3px;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-bottom: 5px;
     color: #fff;
 }
@@ -247,7 +247,7 @@ width: 98%;
    
 }
 
-  #st-position {
+  #st-position1, #st-position2, #st-position3, #st-position4, #st-position5, #st-position6, #st-position7, #st-position8, #st-position9 {
     font-family: "Roboto", sans-serif;
     padding-top: 15px;
     padding-left: 10px;
@@ -257,7 +257,7 @@ width: 98%;
    
       }
   
-  #st-employer {
+   #st-employer1, #st-employer2, #st-employer3, #st-employer4, #st-employer5, #st-employer6, #st-employer7, #st-employer8, #st-employer9 {
     font-family: "Roboto", sans-serif;
     margin-bottom: 5px;
     font-size: 12px;
@@ -266,7 +266,7 @@ width: 98%;
    
   }
 
-  #st-date {
+  #st-date1, #st-date2, #st-date3, #st-date4, #st-date5, #st-date6, #st-date7, #st-date8, #st-date9 {
     font-family: "Roboto", sans-serif;
     margin-bottom: 5px;
     font-size: 16px;
@@ -365,7 +365,7 @@ transition: all 0.35s ease-in-out;
 
 }
 
-.cv-pdf i {
+.resume-pf i {
 font-size: 15px;
 color: #fff;
 text-align: center;
@@ -377,7 +377,7 @@ transition: all 0.35s ease-in-out;
 -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover {
+.resume-pf i:hover {
     color: #05a55a;
 }
   
