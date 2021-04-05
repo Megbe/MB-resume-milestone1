@@ -233,7 +233,7 @@ height: 250px;
 
 /*-----------------History HEading---------*/  
 .color-name-history {
-       height: 40px;
+       height: 140px;
       color: #fff;
      
    }
@@ -295,8 +295,8 @@ height: 250px;
     font-family: "Exo", sans-serif;
     font-weight: 600;
     font-size: 25px;  
-    margin-top: 71px;
-    margin-bottom: 30px;
+    margin-top: 91px;
+    margin-bottom: 10px;
 
 }
 
@@ -311,6 +311,7 @@ height: 250px;
 
 }
 
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
@@ -319,7 +320,7 @@ height: 250px;
 
 button[type="submit"] {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     color: #fff;
     background-color: #05a55a;
 
@@ -414,7 +415,7 @@ p.text-uppercase {
     margin-left: auto;
     margin-right: 30px;
     width: fit-content;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.6);
    
 }
 

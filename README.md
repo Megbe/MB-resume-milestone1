@@ -8,7 +8,6 @@ Currently, the key points are:
 -	Employment history points inclusive of dates, positions and places I have worked for
 
 
-
 ##*UX*
 Easy to navigate to find information dur to clear lay out of the page.
 Maintain visibility by allowing to open the CV download page and LinkedIn access, in separate pages. 
@@ -35,7 +34,8 @@ HTML W3C Markup Validator]( https://validator.w3.org/#validate_by_input)
 W3C CSS Validator ( https://jigsaw.w3.org/css-validator/#validate_by_input)
 Problems -from GitHub menu
 Navigation links 
-    Links to CV and LinkedIn pages will open in a new tab in the web browser, I have tested them by clicking on the icons/tabs.
+Links to CV and LinkedIn pages will open in a new tab in the web browser, I have tested them by clicking on the icons/tabs.
+This site was tested on multiple mobile devices and was found to be compatible and responsive on on devices above 360px width such as: Galaxy S5, iPhone 6/7/8, iPad.
 
 
 ##*DEPLOYMENT*
