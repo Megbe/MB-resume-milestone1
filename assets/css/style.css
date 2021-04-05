@@ -67,6 +67,10 @@ color: #fff;
     height: 40px; 
 }
 
+.navbar-collapse {
+    padding: 0;
+
+}
 .navbar-toggler {
     padding: .25rem .75rem;
     font-size: 1.0rem;
@@ -276,7 +280,7 @@ height: 250px;
   
 @media screen and (min-width: 392px) {
   .hist-container {
-    max-width: 50%;
+    max-width: 60%;
     margin: 0 auto;
     padding-left: 40px;
     background-color: #97c4bd;
