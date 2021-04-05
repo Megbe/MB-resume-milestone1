@@ -32,13 +32,18 @@ background: #517d8f;
 color: #fff
 }
 
+.ui-menu-color-skills {
+   background: #05A55A;
+color: #fff 
+}
+
 .ui-menu-color-history {
-background:#8edfff;
+background: #97c4bd;
 color: #fff
 }
 
 .ui-menu-color-resume {
-background:#97c4bd;
+background: #8edfff;
 color: #fff;
 }
 
@@ -229,6 +234,7 @@ padding-bottom: 30px;
 padding-top: 0px;
 width: 98%;
 height: 250px;
+
 }
 
 /*-----------------History HEading---------*/  
@@ -247,6 +253,7 @@ height: 250px;
    text-align: center;
    margin: 0 auto;
     color: #426979;
+    text-shadow: 2px 2px 2px rgb(5, 87, 87);
    
 }
 
@@ -310,7 +317,6 @@ height: 250px;
  height: 200px;
 
 }
-
 
 .center-form {
     padding-top: 10px;
@@ -420,3 +426,4 @@ p.text-uppercase {
 }
 
 /*---------------------------------------End of footer----------*/
+
