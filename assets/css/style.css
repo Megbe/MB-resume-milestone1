@@ -22,14 +22,11 @@ color: #426979;
 background:#8edfff;
 }
 
-.profile {
-    background: #517d8f;
-    color: #fff;
-}
 
 .ui-menu-color-home {
 background: #517d8f;
 color: #fff
+
 }
 
 .ui-menu-color-skills {
@@ -52,38 +49,25 @@ background: #6ab6d6;
 color: #fff;
 }
 
+
 /*----------------------------------Navbar*/
-
-.menuitem {
-    height: 25px;
-    padding: 0;
-}
-
-.menuitem span {
-    display: inline;
-    text-align: center;
-    letter-spacing: 1px;
-}
 
 .navbar {
     flex-wrap: wrap;
     padding-top: 0;
     padding-right: 0;
+    padding-left: 0;
     height: 40px; 
+    width: 1px;
 }
 
-.navbar-collapse {
-    padding: 0;
+.nav-item {
+    font-size: 18px;
+    font-weight: 400;
+    width: 80px;
+}
 
-}
-.navbar-toggler {
-    padding: .25rem .75rem;
-    font-size: 1.0rem;
-    line-height: 2;
-    background-color: transparent;
-    padding-top: 0;
-    border-radius: .25rem;
-}
+/*---------------------------End of Navbar*/
 
 .skillsid {
     padding-right: 7px;
@@ -156,6 +140,8 @@ padding-top: 15px
     padding-top: 10px;
     padding-left: 18px;
     padding-right: 18px;
+    color: #fff;
+     background: #517d8f;
     color: #fff;
 }
 
