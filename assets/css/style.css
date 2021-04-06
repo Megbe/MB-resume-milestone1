@@ -61,11 +61,12 @@ color: #fff;
     width: 1px;
 }
 
-.nav-item {
+.nav-link {
     font-size: 18px;
     font-weight: 400;
-    width: 80px;
+    width: 120px;
 }
+
 
 /*---------------------------End of Navbar*/
 
