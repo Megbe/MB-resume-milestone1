@@ -64,9 +64,12 @@ color: #fff;
 .nav-link {
     font-size: 18px;
     font-weight: 400;
-    width: 120px;
+    width: 100px;
 }
 
+.align-justify {
+color: #fff;
+}
 
 /*---------------------------End of Navbar*/
 
@@ -162,7 +165,7 @@ height: 130px;
     font-family: "Exo", sans-serif;
     font-weight: 600;
     font-size: 25px;
-    margin-top: 65px;
+    margin-top:95px;
     color: #426979;
     position: static;
 
@@ -226,7 +229,7 @@ height: 250px;
 
 /*-----------------History HEading---------*/  
 .color-name-history {
-       height: 140px;
+       height: 80px;
       color: #fff;
      
    }
