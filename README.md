@@ -110,7 +110,7 @@ Forking the GitHub Repository
 
 Make a Local Clone
 1.	Sign in to Github and find the repository.
-2.	Click the "code" button, located on the right-hand side and above the list of files.
+2.	Click the "code" button, located on the left-hand side, above the list of files.
 3.	In order to clone the repository, you can do so by HTTPS, SSH and GitHub CLI. Select one and copy the URL.
 4.	Open Git Bash.
 5.	Change the current working directory to the location you'd like the cloned directory to be made.
