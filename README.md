@@ -7,7 +7,8 @@ The key points are:
 -	Employment history points inclusive of dates, positions and places I have worked for
 
 
-### LIVE SITE
+### LIVE SITE 
+![] (https://megbe.github.io/MB-resume-milestone1/)
 
 ### USER STORIES     
 -	As an employer or recruiter, I would like to see what skills Maggie has achieved in the field of web development.
@@ -105,7 +106,7 @@ Project was deployed to GitHub Pages by following the below steps:
 
 Forking the GitHub Repository
 1.	Sign in to GitHub and locate the GitHub Repository.
-2.	Find the “fork” button on the top left-hand side of the screen and below the navigation bar.
+2.	Find the “fork” button on the top right-hand side of the screen and below the navigation bar.
 3.	By clicking this, you will have a copy of the original repository in your GitHub account.
 
 Make a Local Clone
