@@ -105,7 +105,7 @@ Project was deployed to GitHub Pages by following the below steps:
 
 Forking the GitHub Repository
 1.	Sign in to GitHub and locate the GitHub Repository.
-2.	Find the “fork” button tt the top right-hand side of the screen and below the navigation bar.
+2.	Find the “fork” button on the top left-hand side of the screen and below the navigation bar.
 3.	By clicking this, you will have a copy of the original repository in your GitHub account.
 
 Make a Local Clone
@@ -115,7 +115,7 @@ Make a Local Clone
 4.	Open Git Bash.
 5.	Change the current working directory to the location you'd like the cloned directory to be made.
 6.	Type “git clone” and paste the URL you copied in step 3.
-7.	Press Enter. Your local clone will be created.
+7.	Press Enter. Your local clone should now be created.
 
 ### CREDITS
 All content was written and produced by the developer. 
@@ -141,3 +141,16 @@ Image used is from the free media site: pexels.com, pexels-skitterphoto-705164 .
 -	My mentor Dick Vlaanderen for help and support
 
 ### WIREFRAMES
+
+1st page selection includes image, name, title and profile
+![](assets/images/wireframesall-1.png)
+
+2nd page includes skills and dev skills info
+![](assets/images/wireframesall-2.png)
+
+3rd page includes work history block
+![](assets/images/wireframesall-3.png)
+
+4th page contact form
+![](assets/images/wireframesall-4.png)
+
